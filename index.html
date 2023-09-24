@@ -4,75 +4,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>project</title>
+    <title>Assingment</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+
+
+        }
+    </style>
 </head>
 
-
 <body>
-    <img class="Loading" src="./250w.gif" height="350" width="350" title="200">
-
-
     <nav>
-        <a id="id1" href="#Html">HTML</a>
-        <br />
-        <a href="#Python">PYTHON</a>
-        <br />
-        <a href="#Javascript">JAVASCRIPT</a>
     </nav>
-    <p>
-    <h2 id="Html"></h2>
-<h1>HTML</h1>
-    <i> HTML is an acronym which stands for Hyper Text Markup Language which is used for creating web pages and web
-    applications. Let's see what is meant by Hypertext Markup Language, and Web page.
+    <h1>Tables</h1>
 
-    HYPER TEXT MARKUP LANGUAGE:To represent multiple lines of code, wrap the <code> element within a <pre> element.
-         The <code> element by itself only represents a single phrase of code or line of code. A CSS rule can be defined for the code selector
-             to override the browser's default font face.
+    <table>
+        <thead>
+            <tr>
+            <th width="80px">Time/Day</th>
+            <th>8am-9am</th>
+            <th>9am-10am</th>
+            <th>10am-11am</th>
+            <th>11am-12pm</th>
+            <th>12pm-1pm</th>
+            <th>1pm-2pm</th>
+            <th>2pm-3pm</th>
+            <th>3pm-4pm</th>
+            <th>4pm-5pm</th>
+            <th>5pm-6pm</th>
+            <th>6pm-7pm</th>
+            <th>8pm-9pm</th>
+            <th>9pm-10pm</th>
+            <th>10pm-11pm</th>
+            <th>11pm-12am</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th height="75px">MONDAY</th>
+                <td></td>
+                <td colspan="2" bgcolor="blue"> Web and App Sir Ghous</td>
+                <td></td>
+                <td></td>
+                <td rowspan="7" bgcolor="aqua"><br />Namaz and Lunch Break</td>
+                <td></td>
+                <td></td>
+                <td colspan="2" bgcolor="grey"> Web and App Section-H Sir Haider</td>
+                <td colspan="2" bgcolor="green">Web and App Section-C Sir Inazam</td>
+                <td colspan="3" bgcolor="sky blue">AI & OS Section-B Sir Qasim</td>
+            </tr>
+            <tr>
+                <th height="75px">TUESDAY</th>
+                <td></td>
+                <td colspan="2" bgcolor="yellow">Web and App Miss Iqra</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td colspan="2" bgcolor="brown">Web and App Section-D Sir Rizwan Bhatti</td>
+                <td colspan="2" bgcolor="orange">Web and App Section-F Sir Bilal</td>
+                <td colspan="2" bgcolor="blue">Web and App Section-E Sir Ghous</td>
+                <td></td>
+            </tr>
+            <th height="75px">WEDNESDAY</th>
+            <td></td>
+            <td colspan="2" bgcolor="blue"> Web and App Sir Ghous</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td colspan="2" bgcolor="light blue"> Web and App Section-H Sir Haider</td>
+            <td colspan="2" bgcolor="green">Web and App Section-C Sir Inazam</td>
+            </tr>
+            <tr>
+                <th height="75px">THURSDAY</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td colspan="2" bgcolor="brown">Web and App Section-D Sir Rizwan Bhatti</td>
+                <td colspan="2" bgcolor="orange">Web and App Section-F Sir Bilal</td>
+                <td colspan="2" bgcolor="blue">Web and App Section-E Sir Ghous</td>
+                <td></td>
 
-    MARKUP LANGUAGE:The two most common markup languages are HTML, which is used to construct web pages seen across the internet, and XML,
-     which stores structured data using customizable tags. When you look at most pages on the internet, you're essentially downloading and
-      viewing an HTML page. The page you're reading right now is written in HTML.
-      
-      WEB PAGE:Although the most uncomplicated layout you will find, it has grown significantly in popularity since the growth of the mobile web.
-     That is because the website can use the same design on mobile devices, tablets, and desktops, reducing development time.
-       Also, single-column layouts work well for creating a great website.
-       
-       <h2 id="Python"></h2>
-<h1>PYTHON</h1>
-       Python programming is the use of Python, a popular and versatile programming language, to create various applications,
-        such as web development, data analysis, machine learning, and more. Python is known for its simple syntax, readability,
-         and large collection of libraries that provide many functionalities. Some of the features of Python are123:
+            </tr>
+            <tr>
+                <th height="75px">FRIDAY</th>
+                <td></td>
+                <td colspan="2" bgcolor="blue"> Web and App Sir Ghous</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td colspan="2" bgcolor=" grey"> Web and App Section-H Sir Haider</td>
+                <td colspan="2" bgcolor="green">Web and App Section-C Sir Inazam</td>
+                <td colspan="3" bgcolor="sky blue">AI & OS Section-B Sir Qasim</td>
+            </tr>
+            <tr>
+                <th height="75px">SATURDAY</th>
+                <td></td>
+                <td colspan="2" bgcolor="yellow">Web and App Miss Iqra</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td colspan="2" bgcolor="brown">Web and App Section-D Sir Rizwan Bhatti</td>
+                <td colspan="2" bgcolor="orange">Web and App Section-F Sir Bilal</td>
+                <td colspan="2" bgcolor="blue">Web and App Section-E Sir Ghous</td>
+                <td></td>
+            </tr>
+            <tr>
 
-It is a high-level, interpreted, and general-purpose language.
-It supports multiple programming paradigms, such as object-oriented, procedural, functional, and aspect-oriented.
-It has a dynamic type system and automatic memory management.
-It has a rich set of built-in data types, such as strings, lists, tuples, sets, dictionaries, and arrays.
-It has many standard modules that provide access to system functionality, such as file I/O, database connectivity, web frameworks, GUI toolkits,
- scientific computing, etc.
-It can be easily integrated with other languages, such as C, C++, Java, etc.
+                <th height="75px">SUNDAY</th>
+                <td></td>
+                <td colspan="3" bgcolor="grey">Web and Mobile(Females)Miss Hina and Miss Qurtulain</td>
+                <td></td>
+                <td colspan="2" bgcolor="violet">Web and Mobile Sir Ishaq</td>
+                <td colspan="2" bgcolor="violet">Web and Mobile Section-I Sir Ishaq</td>
+                <td colspan="2" bgcolor="violet">Web and Mobile Section-J Sir Ishaq</td>
+                <td colspan="2" bgcolor="purple">Web and Mobile Section-K Sir Nadir</td>
 
-<h2 id="Javascript"></h2>
-<h1>JAVASCRIPT</h1>
-JavaScript is a lightweight, cross-platform, single-threaded, and interpreted compiled programming language. It is also known as the scripting 
-language for webpages. It is well-known for the development of web pages, and many non-browser environments also use it.
+            </tr>
 
-JavaScript  is a programming language that allows you to implement complex functionalities on web pages. Every time a web page does more 
-than just sit there and display static information for you to look at—displaying timely content updates, interactive maps, animated 2D/3D 
-graphics, scrolling video jukeboxes, or more—you can bet that JavaScript is 
- probably involved.
-  Client-side: It supplies objects to control a browser and its Document Object Model (DOM). Like if client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input,
-   and page navigation. Useful libraries for the client side are AngularJS, ReactJS, VueJS, and so many others.
-Server-side: It supplies objects relevant to running JavaScript on a server. For if the server-side extensions allow an application
- to communicate with a database, and provide continuity of information from one invocation to another of the application, or perform file
-  manipulations on a server. The useful framework which is the most famous these days is node.js.
-Imperative language – In this type of language we are mostly concerned about how it is to be done. It simply controls the flow of computation.
- The procedural programming approach, object, oriented approach comes under this as async await we are thinking about what is to be done further after the async call.
-Declarative programming – In this type of language we are concerned about how it is to be done, basically here logical computation requires.
- Her main goal is to describe the desired result without direct dictation on how to get it as the arrow function does.</i>
 
-</p>
 
-<a href="#id1"><i>Go To Top</i></a>
+
+        </tbody>
+
+
+
+
+
+
+
+    </table>
 
 
 </body>
